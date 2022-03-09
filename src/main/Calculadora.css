@@ -1,0 +1,11 @@
+.calculadora{
+    height: 500px;
+    width: 330px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: repeat(5,20%) ;
+    grid-template-rows: 1fr repeat(5, 70px);
+
+}
